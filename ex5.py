@@ -21,7 +21,7 @@ def num_duplicates(given_list):
     duplicates = 0
     for x in new_dict.keys():
         if new_dict[x] > 1:
-            duplicates += (new_dict[x]-1)
+            duplicates += (new_dict[x] - 1)
     return duplicates
 
 
@@ -40,7 +40,7 @@ def num_mode(given_list):
 
 
 if __name__ == '__main__':
-    list_1 = [2, 3, 4, 4, 4, 5, 6, 6, 8, 9, 9, 9, 9, 9]
+    list_1 = [2, 3, 4, 4, 4, 5, 6, 6, 8, 9, 9, 9, 9, 9, 4, 4, 4, 4]
 
     print(min_number(list_1))
     print(max_number(list_1))
